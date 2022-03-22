@@ -28,7 +28,7 @@ struct Params
 	bool ok() const;
 
 	std::string m_host = "127.0.0.1";
-	uint32_t m_rpcPort = 18081;
+	uint32_t m_rpcPort = 37175;
 	uint32_t m_zmqPort = 18083;
 	bool m_lightMode = false;
 	Wallet m_wallet{ nullptr };
